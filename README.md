@@ -9,6 +9,7 @@ A minimalist launcher for the root folder of our xampp / lampp server.
 [Português]
 Um lançador minimalista para a pasta raiz do xampp / lampp
 
+
 ## Uso/Usage/Utilização ##
 [Español]
 Simplemente copia el archivo index.php en el directorio raíz de xampp (Normalmente es htdocs, por eso el nombre)
