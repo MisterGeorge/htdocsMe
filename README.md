@@ -24,28 +24,7 @@ Within the download you'll find the following directories and files, logically g
 
 Dentro o download, você encontrará os seguintes diretórios e arquivos, logicamente agrupar ativos comuns e fornecendo compilado e minified Ambas as variações. Você verá algo como isto:
 
-assets/
-    ├── css/
-    │   ├── bootstrap.css   
-    │   ├── bootstrap.css.map
-    │   ├── bootstrap.min.css
-    │   ├── bootstrap.min.css.map
-    │   └── styles.css
-    ├── flags-mini/
-    ├── font-awesome/
-    │   ├── css/
-    │   ├── fonts/
-    │   ├── less/
-    │   ├── scss/
-    │   └── HELP-US-OUT.txt
-    ├── fonts/
-    ├── imgs/
-    └── js/
-        ├── bootstrap.js
-        ├── bootstrap.min.js 
-        ├── jquery.min.js 
-        ├── jquery.nicescroll.min.js
-        └── npm.js
+![htdocsMe screenshot](Sitemap.png)
 
 ## Traducciones/Translations/Traduções:
 Português - por Manuel Santos y Eduardo Kraus
