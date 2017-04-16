@@ -1,9 +1,12 @@
 # **htdocsMe**
-+Así se crean secciones y subsecciones. Para crear una enumeración utilizamos:
-++ Bootstrapp 
-++ Font-awesome
-++ jQuery
-++ jQuery.nicescroll
+Componentes o librerias necesarias y usadas en este performance: 
+- Bootstrapp Sleek, intuitive, and powerful front-end framework for faster and easier web development. {v3.3.7}
+  - http://getbootstrap.com/
+- Font Awesome: The iconic font and CSS framework {v4.7.0} :
+  - http://fontawesome.io/?utm_source=hackernewsletter
+- jQuery — New Wave JavaScript {v1.11.3}
+- jQuery.nicescroll — New Wave JavaScript {v3.6.8}
+  - http://nicescroll.areaaperta.com/
 
 [Español]
 Un launcher minimalista para la carpeta raíz de nuestro servidor xampp/lampp.
