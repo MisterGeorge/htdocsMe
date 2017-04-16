@@ -27,7 +27,3 @@ English - By Eduardo Kraus
 
 
 ## Screenshoots ##
-
-![htdocsMe screenshot](screenshot.png)
-![htdocsMe screenshot](screenshot_2.png)
-![htdocsMe screenshot](Screen.png)
