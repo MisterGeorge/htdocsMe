@@ -1,4 +1,6 @@
 # **htdocsMe**
+![Bower version](https://img.shields.io/bower/v/bootstrap.svg)
+[![npm version](https://img.shields.io/npm/v/bootstrap.svg)](https://www.npmjs.com/package/bootstrap)
 
 [Español]
 Un launcher minimalista para la carpeta raíz de nuestro servidor xampp/lampp.
