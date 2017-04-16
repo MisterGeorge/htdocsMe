@@ -27,8 +27,8 @@ English - By Eduardo Kraus
 
 
 ## Screenshoots ##
-![htdocsMe screenshot](Captura de pantalla (631).png)
-![htdocsMe screenshot](Captura de pantalla (632).png)
-![htdocsMe screenshot](Captura de pantalla (633).png)
-![htdocsMe screenshot](Captura de pantalla (634).png)
-![htdocsMe screenshot](Captura de pantalla (635).png)
+![htdocsMe screenshot](screenshot(631).png)
+![htdocsMe screenshot](screenshot(632).png)
+![htdocsMe screenshot](screenshot(633).png)
+![htdocsMe screenshot](screenshot(634).png)
+![htdocsMe screenshot](screenshot(635).png)
