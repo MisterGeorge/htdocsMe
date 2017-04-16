@@ -1,0 +1,135 @@
+body {
+                font-family : "Droid Sans"
+            }
+
+            .main-container {
+                padding-top    : 30px;
+                padding-bottom : 30px;
+                background     : #FAFAFA;
+            }
+
+            .search-box, .search-box *, .carpeta, .archivo {
+                border-radius : 0;
+            }
+
+            .search-box {
+                margin-bottom : 50px;
+            }
+
+            .carpeta > div, .archivo > div {
+                padding : 0;
+            }
+
+            .carpeta:hover, .archivo:hover {
+                box-shadow : 0 0 15px 0 rgba(0, 0, 0, 0.3);
+                transition : all 0.2s;
+            }
+
+            .carpeta:hover .icono-carpeta, .archivo:hover .icono-archivo {
+                background : #5E9EE8;
+                transition : all 0.2s;
+            }
+
+            .carpeta .glyphicon {
+                font-size : 60px;
+            }
+
+            .carpeta-href:hover, .carpeta-href:focus {
+                text-decoration : none !important;
+            }
+
+            .carpeta p, .archivo p {
+                margin : 0;
+                color  : #363636;
+            }
+
+            .carpeta p {
+                padding : 8px 0;
+            }
+
+            .icono-archivo {
+                background   : #FAFAFA;
+                padding      : 20px;
+                top          : 0;
+                margin-right : 5px;
+                font-size    : 15px transition : all 0.5 s;
+            }
+
+            .archivo:hover .icono-archivo {
+                color : white;
+            }
+
+            .icono-carpeta {
+                width      : 100%;
+                display    : block;
+                padding    : 40px;
+                background : #E2E2E2;
+                color      : white;
+                transition : all 0.5s;
+            }
+
+            .search-box input {
+                border-top          : none;
+                border-left         : none;
+                border-right        : none;
+                border-bottom-width : 2px;
+                padding-left        : 0;
+                padding-right       : 0;
+                box-shadow          : none !important;
+            }
+
+            .name-search {
+                display : none;
+            }
+
+            .footer {
+                padding : 20px 0;
+            }
+
+            .footer p {
+                margin : 0;
+            }
+
+            .footer .lang-list {
+                text-align : right;
+            }
+
+            .footer .lang-list img {
+                padding-left : 6px;
+
+            }
+            .footer .lang-list img.selected {
+                opacity: 0.3;
+            }
+
+            .boton-abrir-externo {
+                width         : 35px;
+                height        : 35px;
+                color         : #424242;
+                background    : none;
+                position      : absolute;
+                border-radius : 50%;
+                right         : 25px;
+                top           : 10px;
+                opacity       : 0.2;
+            }
+
+            .boton-abrir-externo .glyphicon {
+                font-size : 14px;
+                padding   : 8px 12px;
+            }
+
+            .boton-abrir-externo:hover {
+                opacity    : 1;
+                background : #363636;
+                color      : white;
+            }
+            /*Link CSS*/
+            #phpadmin{
+                height: 76px;
+                padding: 10px;
+            }
+            #phpadmin img{            
+                height: 60px;
+                margin-left: 20px;
+            }
