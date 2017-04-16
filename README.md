@@ -1,7 +1,9 @@
 # **htdocsMe**
-![Bower version](https://img.shields.io/bower/v/bootstrap.svg)
-[![npm version](https://img.shields.io/npm/v/bootstrap.svg)](https://www.npmjs.com/package/bootstrap)
-[![Meteor Atmosphere](https://img.shields.io/badge/meteor-twbs%3Abootstrap-blue.svg)](https://atmospherejs.com/twbs/bootstrap)
++Así se crean secciones y subsecciones. Para crear una enumeración utilizamos:
+++ Bootstrapp 
+++ Font-awesome
+++ jQuery
+++ jQuery.nicescroll
 
 [Español]
 Un launcher minimalista para la carpeta raíz de nuestro servidor xampp/lampp.
