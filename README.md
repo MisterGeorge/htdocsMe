@@ -1,4 +1,6 @@
 # **htdocsMe**
+[![Coverage Status](https://coveralls.io/repos/github/MisterGeorge/htdocsMe/badge.svg?branch=master)](https://coveralls.io/github/MisterGeorge/htdocsMe?branch=master)
+
 Componentes o librerias necesarias y usadas en este performance: 
 - Bootstrapp Sleek, intuitive, and powerful front-end framework for faster and easier web development. {v3.3.7}
   - http://getbootstrap.com/
