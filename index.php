@@ -61,6 +61,7 @@
     {
         setcookie ( $name, $value, time () + ( 60 * 60 * 24 * 365 * 10 ) ); // 10 anos
     }
+
     // Inicio de sesión
     session_start();
     $langAllow = array (
@@ -148,6 +149,22 @@
     } else {
         $url = $i_url = __dir__;
     }
+
+    /**
+     * [FunctionName description]: Permite crear una carpeta para el nuevo proyecto.
+     * @param string $value [description] : Recibe el nombre a consultar dentro de los proyectos ya creados.
+     */
+    function CreateFolder($name_folder = $_POST['name_folder'])
+    {
+        $new_folder = $_SERVER[‘DOCUMENT_ROOT’].DIRECTORY_SEPARATOR . $name_folder;
+        if(!file_exists($new_folder))
+        {
+            mkdir($new_folder, 0777, true);
+            echo “Se ha creado el directorio: ” . $new_folder;
+        } else {
+            echo “la ruta: ” .$new_folder. ” ya existe “;
+        }
+    }
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -205,13 +222,15 @@
                                     <div class="modal-body">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <div class="input-group">
-                                                    <span class="input-group-addon" id="basic-addon1">
-                                                        <i class="fa fa-tag" aria-hidden="true"></i>
-                                                        <?php echo $langString[ 'Nombre' ] ?> 
-                                                    </span>
-                                                    <input type="text" class="form-control" aria-describedby="basic-addon1">
-                                                </div>
+                                                <form role="form" action="" method="POST" onsubmit="CreateFolder(); ">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon" id="basic-addon1">
+                                                            <i class="fa fa-tag" aria-hidden="true"></i>
+                                                            <?php echo $langString[ 'Nombre' ] ?> 
+                                                        </span>
+                                                        <input type="text" class="form-control" id="name_folder" name="name_folder">
+                                                    </div>
+                                                </form>
                                             </div>
                                         </div>
                                     </div><!-- /.modal-body-->
@@ -260,7 +279,6 @@
                         } else {
                             $link = $i_url.DIRECTORY_SEPARATOR.$carpeta;
                         }
-
                         if($carpeta == '.' && isset($_GET['url']) && (dirname($link) != DIRECTORY_SEPARATOR)){
                             ?>
                             <div class="col-md-3 col-xs-6">
@@ -278,7 +296,6 @@
                             </div>
                             <?php
                         }
-
                         if($carpeta == '.' || $carpeta == '..' || !is_dir($url.DIRECTORY_SEPARATOR.$carpeta))
                         {
                             continue;
