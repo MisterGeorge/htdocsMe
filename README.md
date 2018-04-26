@@ -5,9 +5,9 @@ Componentes o librerias necesarias y usadas en este performance:
   - https://getbootstrap.com/
 - Font Awesome: Conjunto de iconos de vectores, logotipos sociales y herramientas más populares de la Web. {v5.0.10}
   - https://fontawesome.com/
-- jQuery — jQuery es una biblioteca de JavaScript rápida, pequeña y rica en funciones. {v3.3.1}:
+- jQuery: es una biblioteca de JavaScript rápida, pequeña y rica en funciones. {v3.3.1}:
   - https://jquery.com/
-- jQuery.nicescroll — Plugin para barras de desplazamiento personalizadas en navegadores móviles y de escritorio. {v3.7.6}
+- jQuery.nicescroll: Es un plugin para barras de desplazamiento personalizadas en navegadores móviles y de escritorio. {v3.7.6}
   - https://nicescroll.areaaperta.com/
 
 [Español]
@@ -41,8 +41,7 @@ Dentro o download, você encontrará os seguintes diretórios e arquivos, logica
 Português - por Manuel Santos y Eduardo Kraus
 English - By Eduardo Kraus
 
-
-## Screenshoots ##
+## Capturas de pantalla/Screenshoots/Screenshots ##
 ![htdocsMe screenshot](Chrome.png)
 ![htdocsMe screenshot](Edge.png)
 ![htdocsMe screenshot](Mozilla.png)
