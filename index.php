@@ -3,7 +3,7 @@
      *   Créditos a Anderson Salas (contacto@andersonsalas.com.ve) hasta la versión 0.3.1
      *   Repositorio en GitHub: https://github.com/andersonsalas/htdocsMe
      *   
-     *   htdocsMe Version 0.5 Copyright (C) 2018 Jorge Armando.
+     *   htdocsMe Version 1.0 Copyright (C) 2018 Jorge Armando.
      *   Repositorio en GitHub: https://github.com/MisterGeorge/htdocsMe
      *
      *   This program is free software; you can redistribute it and/or modify
@@ -480,7 +480,7 @@
             ?>
             </div>
             <div class="footer-left">
-                <p class="footer-link">htdocsMe 0.5</p>
+                <p class="footer-link">htdocsMe 1.0</p>
                 <p>
                     <a href="https://github.com/MisterGeorge/htdocsMe" class="text-secondary" target="_blank">
                         <i class="fab fa-github"></i> GitHub
