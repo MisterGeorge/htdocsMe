@@ -1,135 +1,249 @@
-body {
-                font-family : "Droid Sans"
-            }
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    src: url(../fonts/Roboto-Regular.ttf);
+    /* TTF file for CSS3 browsers */
+}
 
-            .main-container {
-                padding-top    : 30px;
-                padding-bottom : 30px;
-                background     : #FAFAFA;
-            }
+html {
+  	font-family: 'Roboto', sans-serif;
+  	-ms-text-size-adjust: 100%;
+  	-webkit-text-size-adjust: 100%;
+}
 
-            .search-box, .search-box *, .carpeta, .archivo {
-                border-radius : 0;
-            }
+a {
+	text-decoration: none;
+	color: #6c757d!important;
+}
 
-            .search-box {
-                margin-bottom : 50px;
-            }
+a.text-secondary:focus, a.text-secondary:hover {
+    opacity: 1;
+    background: #363636;
+    color: #ffffff!important;
+}
 
-            .carpeta > div, .archivo > div {
-                padding : 0;
-            }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
 
-            .carpeta:hover, .archivo:hover {
-                box-shadow : 0 0 15px 0 rgba(0, 0, 0, 0.3);
-                transition : all 0.2s;
-            }
+h6 {
+	margin-bottom: 0;
+}
 
-            .carpeta:hover .icono-carpeta, .archivo:hover .icono-archivo {
-                background : #5E9EE8;
-                transition : all 0.2s;
-            }
+.main-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
-            .carpeta .glyphicon {
-                font-size : 60px;
-            }
+.search-box,
+.carpeta,
+.archivo {
+    border-radius: 0;
+}
 
-            .carpeta-href:hover, .carpeta-href:focus {
-                text-decoration : none !important;
-            }
+.search-box #newFolder {
+    padding-top: 0;
+    padding-bottom: 7px!important;
+}
 
-            .carpeta p, .archivo p {
-                margin : 0;
-                color  : #363636;
-            }
+#shortcut,
+#shortcut-label:hover {
+    text-decoration: none;
+}
 
-            .carpeta p {
-                padding : 8px 0;
-            }
+#shortcut {
+    text-align: center;
+    vertical-align: top;
+}
 
-            .icono-archivo {
-                background   : #FAFAFA;
-                padding      : 20px;
-                top          : 0;
-                margin-right : 5px;
-                font-size    : 15px transition : all 0.5 s;
-            }
+#shortcut #shortcut-icon {
+    margin-top: .25em;
+    margin-bottom: .20em;
+    margin-left: 1.5em;
+    font-size: 32px;
+    color: #545454;
+}
 
-            .archivo:hover .icono-archivo {
-                color : white;
-            }
+#shortcut-label {
+    display: block;
+    font-weight: 400;
+    color: #545454;
+}
 
-            .icono-carpeta {
-                width      : 100%;
-                display    : block;
-                padding    : 40px;
-                background : #E2E2E2;
-                color      : white;
-                transition : all 0.5s;
-            }
+#phpadmin {
+    height: 76px;
+    padding: 10px;
+}
 
-            .search-box input {
-                border-top          : none;
-                border-left         : none;
-                border-right        : none;
-                border-bottom-width : 2px;
-                padding-left        : 0;
-                padding-right       : 0;
-                box-shadow          : none !important;
-            }
+#phpadmin img {
+    height: 60px;
+    margin-left: 20px;
+}
 
-            .name-search {
-                display : none;
-            }
+.panel,
+.modal-content,
+.btn {
+    border: none;
+}
 
-            .footer {
-                padding : 20px 0;
-            }
+.jumbotron{
+	padding: 1rem 4rem;
+}
 
-            .footer p {
-                margin : 0;
-            }
+.jumbotron, .form-group{
+	margin-bottom: 0;
+}
 
-            .footer .lang-list {
-                text-align : right;
-            }
+.modal-header .breadcrumb{
+    margin-bottom: 0;
+}
 
-            .footer .lang-list img {
-                padding-left : 6px;
+.modal-content {
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
 
-            }
-            .footer .lang-list img.selected {
-                opacity: 0.3;
-            }
+.carpeta>div,
+.archivo>div {
+    padding: 0;
+}
 
-            .boton-abrir-externo {
-                width         : 35px;
-                height        : 35px;
-                color         : #424242;
-                background    : none;
-                position      : absolute;
-                border-radius : 50%;
-                right         : 25px;
-                top           : 10px;
-                opacity       : 0.2;
-            }
+.carpeta:hover,
+.archivo:hover {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.2s;
+}
 
-            .boton-abrir-externo .glyphicon {
-                font-size : 14px;
-                padding   : 8px 12px;
-            }
+.carpeta:hover .icono-carpeta,
+.archivo:hover .icono-archivo {
+    background: #3d3d3d;
+    transition: all 0.2s;
+}
 
-            .boton-abrir-externo:hover {
-                opacity    : 1;
-                background : #363636;
-                color      : white;
-            }
-            /*Link CSS*/
-            #phpadmin{
-                height: 76px;
-                padding: 10px;
-            }
-            #phpadmin img{            
-                height: 60px;
-                margin-left: 20px;
-            }
+.carpeta-href:hover,
+.carpeta-href:focus {
+    text-decoration: none !important;
+}
+
+:last-child.card-footer {
+	border-radius: 0;
+}
+
+.icono-archivo {
+    padding: 15px;
+    top: 0;
+    margin-right: 5px;
+    background-color:#6c757d!important;
+}
+
+.archivo:hover .icono-archivo,
+.icono-carpeta,
+.link,
+.footer {
+    color: #ffffff;
+}
+
+.icono-carpeta {
+    width: 100%;
+    display: block;
+    padding: 16px;
+    background: #E2E2E2;
+    transition: all 0.5s;
+}
+
+.search-box input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 2px;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: none !important;
+}
+
+.name-search {
+    display: none;
+}
+
+.link {
+    width: 40px;
+    height: 40px;
+    color: #424242;
+    background: none;
+    position: absolute;
+    border-radius: 50%;
+    right: 25px;
+    top: 10px;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+
+.footer{
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+	padding: 45px 50px;
+}
+
+.footer .footer-left p{
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer p.footer-link{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer p.footer-link a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer .footer-right{
+	float: right;
+	margin-top: 6px;
+}
+
+.footer .footer-right a{
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	margin-left: 5px;
+}
+
+.footer .footer-right img.selected {
+    opacity: 0.3;
+    padding-left: 8px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+@media (max-width: 600px) {
+	.footer .footer-left,
+	.footer .footer-right{
+		text-align: center;
+	}
+
+	.footer .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer .footer-left p.footer-link{
+		line-height: 1.8;
+	}
+}
