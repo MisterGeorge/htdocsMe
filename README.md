@@ -1,31 +1,32 @@
 # **htdocsMe**
-[![Coverage Status](https://coveralls.io/repos/github/MisterGeorge/htdocsMe/badge.svg?branch=master)](https://coveralls.io/github/MisterGeorge/htdocsMe?branch=master)
 
 Componentes o librerias necesarias y usadas en este performance: 
-- Bootstrapp Sleek, intuitive, and powerful front-end framework for faster and easier web development. {v3.3.7}
-  - http://getbootstrap.com/
-- Font Awesome: The iconic font and CSS framework {v4.7.0} :
-  - http://fontawesome.io/?utm_source=hackernewsletter
-- jQuery — New Wave JavaScript {v1.11.3}
-- jQuery.nicescroll — New Wave JavaScript {v3.6.8}
-  - http://nicescroll.areaaperta.com/
+- Bootstrapp: Es un kit de herramientas de código abierto para desarrollar con HTML, CSS y JS. {v4}
+  - https://getbootstrap.com/
+- Font Awesome: Conjunto de iconos de vectores, logotipos sociales y herramientas más populares de la Web. {v5.0.10}
+  - https://fontawesome.com/
+- jQuery — jQuery es una biblioteca de JavaScript rápida, pequeña y rica en funciones. {v3.3.1}:
+  - https://jquery.com/
+- jQuery.nicescroll — Plugin para barras de desplazamiento personalizadas en navegadores móviles y de escritorio. {v3.7.6}
+  - https://nicescroll.areaaperta.com/
 
 [Español]
-Un launcher minimalista para la carpeta raíz de nuestro servidor xampp/lampp.
+Un launcher minimalista para la carpeta raíz de nuestro servidor Xampp/Lampp.
 
 [English]
-A minimalist launcher for the root folder of our xampp / lampp server.
+A minimalist launcher for the root folder of our Xampp/Lampp server.
 
 [Português]
-Um lançador minimalista para a pasta raiz do xampp / lampp
+Um lançador minimalista para a pasta raiz do Xampp/Lampp
 
 
 ## Uso/Usage/Utilização ##
-Simplemente copia el archivo index.php en el directorio raíz de xampp (Normalmente es htdocs, por eso el nombre)
+Simplemente copia el archivo index.php y la carpeta 'assets' en el directorio raíz de xampp (Normalmente es htdocs, por eso el nombre).
 
-Simply copy the index.php file in the root directory of xampp (typically htdocs, hence the name)
+Simply copy the file index.php and the folder 'assets' in the root directory of xampp (Normally it's htdocs, that's why the name).
 
-Basta copiar o arquivo index.php no diretório raiz do xampp (normalmente htdocs, daí o nome)
+Basta copie o arquivo index.php e a pasta 'assets' no diretório raiz do xampp (normalmente é htdocs, é por isso que o nome).
+
 
 ## Qué incluye?/What includes?/Que inclui?
 Dentro de la descarga encontrará los siguientes directorios y archivos, agrupando de forma lógica activos comunes y proporcionando variaciones compiladas y minificadas. Verás algo como esto:
@@ -43,7 +44,8 @@ English - By Eduardo Kraus
 
 ## Screenshoots ##
 ![htdocsMe screenshot](Chrome.png)
-![htdocsMe screenshot](Chrome-2.png)
 ![htdocsMe screenshot](Edge.png)
 ![htdocsMe screenshot](Mozilla.png)
 ![htdocsMe screenshot](Opera.png)
+![htdocsMe screenshot](Footer.png)
+![htdocsMe screenshot](NuevoProyecto.png)
